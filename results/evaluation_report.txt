@@ -1,0 +1,60 @@
+logistic_regression:
+Report :              precision    recall  f1-score   support
+
+    frequent       0.00      0.00      0.00      3960
+  occasional       0.00      0.00      0.00      6009
+        rare       0.50      1.00      0.67     10031
+
+    accuracy                           0.50     20000
+   macro avg       0.17      0.33      0.22     20000
+weighted avg       0.25      0.50      0.34     20000
+
+
+Accuracy : 0.50155
+
+Precision :0.2515524025
+
+Recall :0.50155
+
+F1 Score :0.3350569777896174
+
+decision_tree:
+Report :              precision    recall  f1-score   support
+
+    frequent       0.19      0.20      0.20      3960
+  occasional       0.30      0.29      0.30      6009
+        rare       0.50      0.49      0.49     10031
+
+    accuracy                           0.37     20000
+   macro avg       0.33      0.33      0.33     20000
+weighted avg       0.38      0.37      0.38     20000
+
+
+Accuracy : 0.3736
+
+Precision :0.3778313859201664
+
+Recall :0.3736
+
+F1 Score :0.375618912450748
+
+random_forest:
+Report :              precision    recall  f1-score   support
+
+    frequent       0.20      0.09      0.12      3960
+  occasional       0.30      0.21      0.25      6009
+        rare       0.50      0.70      0.58     10031
+
+    accuracy                           0.43     20000
+   macro avg       0.33      0.33      0.32     20000
+weighted avg       0.38      0.43      0.39     20000
+
+
+Accuracy : 0.4317
+
+Precision :0.3809660869038747
+
+Recall :0.4317
+
+F1 Score :0.39135993029048977
+
